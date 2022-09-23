@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuoteDBModelStoreContainer" CdmEntityContainer="QuotesDBEntities">
+    <EntitySetMapping Name="Quote">
+      <EntityTypeMapping TypeName="QuoteDBModel.Quote">
+        <MappingFragment StoreEntitySet="Quote">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QuoteType" ColumnName="QuoteType" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Task" ColumnName="Task" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="TaskType" ColumnName="TaskType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
